@@ -1,0 +1,6 @@
+
+<%@ include file="/init.jsp" %>
+<portlet:defineObjects />
+<%
+String[] anArrayFromMyPortlet = (String[])renderRequest.getAttribute("my-array");
+%>

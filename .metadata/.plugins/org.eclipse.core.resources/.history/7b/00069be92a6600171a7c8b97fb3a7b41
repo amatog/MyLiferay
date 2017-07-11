@@ -1,0 +1,14 @@
+
+<%@ include file="/init.jsp" %>
+<portlet:defineObjects />
+
+
+<%
+String[] anArrayFromMyPortlet = (String[])renderRequest.getAttribute("my-array");
+%>
+
+<ul>
+<% for (String string : anArrayFromMyPortlet) { %>
+<li><%= string %></li>
+<% } %>
+</ul>

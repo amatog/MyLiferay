@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<servers>
+  <server AGENT_PORT="29998" auto-publish-time="0" hostname="localhost" id="Liferay 7 at localhost" name="Liferay 7 at localhost" password="test" runtime-id="Liferay 7 at localhost" server-type="com.liferay.ide.server.portal" server-type-id="com.liferay.ide.server.portal" start-timeout="1500" stop-timeout="600" timestamp="2">
+    <list key="modules" value0="MyHelloWorld::com.liferay.ide.project.core.bundleFactory:MyHelloWorld::liferay.bundle::1.0"/>
+  </server>
+</servers>

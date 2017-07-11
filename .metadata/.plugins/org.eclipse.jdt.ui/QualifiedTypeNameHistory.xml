@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="javax.portlet.RenderRequest"/>
+<fullyQualifiedTypeName name="javax.portlet.RenderResponse"/>
+<fullyQualifiedTypeName name="javax.portlet.PortletException"/>
+<fullyQualifiedTypeName name="java.io.IOException"/>
+</qualifiedTypeNameHistroy>

@@ -1,0 +1,5 @@
+javax.portlet.display-name.myhelloworld_MyHelloWorld=MyHelloWorld JSP
+javax.portlet.keywords.myhelloworld_MyHelloWorld=myhelloworld,jsp
+javax.portlet.short-title.myhelloworld_MyHelloWorld=MyHelloWorld JSP
+javax.portlet.title.myhelloworld_MyHelloWorld=MyHelloWorld JSP Portlet
+myhelloworld_MyHelloWorld.caption=Hello from MyHelloWorld JSP!
