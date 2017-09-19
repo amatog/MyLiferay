@@ -9,6 +9,8 @@ import javax.portlet.ActionResponse;
 import javax.portlet.Portlet;
 import javax.portlet.PortletException;
 import javax.portlet.ProcessAction;
+import javax.portlet.RenderRequest;
+import javax.portlet.RenderResponse;
 
 import org.osgi.service.component.annotations.Component;
 
@@ -30,19 +32,25 @@ import org.osgi.service.component.annotations.Component;
 )
 
 public class SimpleFormPortlet extends MVCPortlet {
-	@ProcessAction(name = "myAction")
-	public void myAction(ActionRequest actionRequest, ActionResponse actionResponse)
+	
+	@Override
+	public void doView(RenderRequest renderRequest, RenderResponse renderResponse)
 			throws IOException, PortletException {
-		
-		putmylog();
+		System.out.println("doView.Controller");
+		// TODO Auto-generated method stub
+		super.doView(renderRequest, renderResponse);
+	}
+	
+
+	@ProcessAction(name = "myCandidateName")
+	public void myCandidateName(ActionRequest actionRequest, ActionResponse actionResponse)
+			throws IOException, PortletException {
+		System.out.println("SimpleFormPortlet.myCandidateName");
+		String candidateName = actionRequest.getParameter("myCandidateName");
+		System.out.println(candidateName);
 	    
 	}
 	
-	public static void putmylog(){
-		
-		System.out.println("write my stuff");
-		
-	}
 		
 
 }
